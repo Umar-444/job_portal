@@ -75,7 +75,7 @@ class auth extends database{
 
     public function hello()
     {
-        
+        echo 'hello';
     }
 }  
 ?>
