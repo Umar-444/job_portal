@@ -72,5 +72,10 @@ class auth extends database{
         $result=$stmt->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
+
+    public function hello()
+    {
+        
+    }
 }  
 ?>
